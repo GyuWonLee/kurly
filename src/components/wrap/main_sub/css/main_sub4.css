@@ -1,0 +1,28 @@
+#mainSub04 {
+  width: 100%;
+}
+#mainSub04 #section1 {
+  width: 100%;
+}
+#mainSub04 #section1 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#mainSub04 #section1 .container .content {
+  width: 100%;
+}
+#mainSub04 #section1 .container .content ul {
+  width: 100%;
+}
+#mainSub04 #section1 .container .content ul li {
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+#mainSub04 #section1 .container .content ul li a {
+  display: block;
+  width: 100%;
+}
+#mainSub04 #section1 .container .content ul li a img {
+  width: 100%;
+}

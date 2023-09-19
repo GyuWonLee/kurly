@@ -1,0 +1,136 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #section8 {
+  width: 100%;
+  padding: 80px 0 40px 0;
+}
+#wrap #main #section8 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section8 .container .title {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+#wrap #main #section8 .container .title h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+#wrap #main #section8 .container .content {
+  width: 100%;
+}
+#wrap #main #section8 .container .content .slide-container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap {
+  width: 500%;
+  display: flex;
+  position: relative;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide {
+  width: 25%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap {
+  padding: 0 9px;
+  width: 100%;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box > img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  transition: all 0.3s;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box > img:hover {
+  transform: scale(1.05);
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box span {
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  bottom: 20px;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box span img {
+  width: auto;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box {
+  padding: 20px 0 10px 0;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li {
+  padding: 5px 0;
+  color: #333;
+  font-size: 16px;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(1) {
+  font-weight: 500;
+  line-height: 140%;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(2) {
+  font-weight: 600;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(2) strong {
+  font-weight: 600;
+  color: #c00;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(2) span {
+  font-weight: 600;
+  margin: 0 0 0 10px;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(2) em {
+  font-size: 14ox;
+  text-decoration: line-through;
+  display: block;
+  padding: 5px 0 0 0;
+  font-weight: 400;
+  color: #999;
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(3) img {
+  width: 15px;
+  transform: translateY(-1px);
+}
+#wrap #main #section8 .container .content .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box ul li:nth-child(3) span {
+  font-size: 12px;
+  color: #999;
+  margin: 0 0 0 2px;
+}
+#wrap #main #section8 .container .content .slide-container > a {
+  z-index: 2;
+  position: absolute;
+  top: 130px;
+  display: block;
+  width: 60;
+  height: 60;
+}
+#wrap #main #section8 .container .content .slide-container > a.arrow-next-btn {
+  right: -21px;
+}
+#wrap #main #section8 .container .content .slide-container > a.arrow-next-btn img {
+  width: 100%;
+  transform: rotate(-180deg);
+}
+#wrap #main #section8 .container .content .slide-container > a.arrow-prev-btn {
+  left: -21px;
+}
+#wrap #main #section8 .container .content .slide-container > a.arrow-prev-btn img {
+  width: 100%;
+}

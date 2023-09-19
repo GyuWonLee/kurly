@@ -1,0 +1,4 @@
+#wrap #main {
+  z-index: 2;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+@import url('./fonts.css');
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+html {overflow-y: scroll;scroll-behavior: smooth; /* 스무스 스크롤링 이벤트 */}
+html.on {overflow: hidden;}
+body {
+    /* font: 굵기  크기/줄간격 '글꼴이름1','글꼴이름2','글꼴이름3';*/
+    font: normal 16px/1  'Noto Sans','malgun gothic', 'Montserrat','Nanum Gothic';
+    color: rgb(60, 60, 60);
+    background: rgb(255,255,255);
+}
+ul {list-style: none;}
+a {color: rgb(60, 60, 60);text-decoration: none;}
+header,main,footer,nav,aside,section,article {display: block;}
+h1,h2,h3,h4,h5,h6,b,strong {font-weight: normal;}
+i,em,address {font-style: normal;}
+.hide {display: none;}

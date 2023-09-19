@@ -1,0 +1,22 @@
+// 컨텍스트 전역변수 관리 최상 컴포넌트에서 관리
+// 컨텍스트 선언
+// 컨텍스트 초기값 설정 기본 null
+// 내보내기
+// 폴더 생성하고 파일생성하여 저장
+
+import {createContext} from 'react';
+export const ViewProductContext = createContext(null);
+
+
+최상위 컴포넌트에서 가져오기
+// 컨텍스트 가져오기
+import { ViewProductContext } from './context/ViewProductContext';
+
+가져온 컨텍스트 프로바이더 설정하기
+
+
+섹션2
+// 컨텍스트 가져오기
+import {ViewProductContext} from '../../context/ViewProductContext';
+
+

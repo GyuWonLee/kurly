@@ -1,0 +1,163 @@
+#wrap{
+    width:100%;
+    #main{
+        width:100%;
+        #section4 {
+            width:100%;
+            padding: 80px 0 40px 0;
+            .container {
+                width:100%;
+                max-width: 1068px;
+                margin:0 auto;
+                .title {
+                    width:100%;
+                    padding: 0 0 40px 0;
+                    h2{
+                        font-size: 28px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+                .content {
+                    width:100%;
+                    .slide-container {
+                        width:100%;
+                        position: relative;
+                        .slide-view {
+                            z-index: 1;
+                            position: relative;
+                            width:100%;
+                            overflow: hidden;
+                            .slide-wrap {
+                                width:25% * 4;
+                                display: flex;
+                                position: relative;
+                                .slide {
+                                    width:25%;
+                                    user-select: none;
+
+                                    .slide-gap {
+                                        padding: 0 9px;
+                                        width:100%;
+                                        cursor: pointer;
+                                        .img-box {
+                                            width:100%;
+                                            position: relative;
+                                            overflow: hidden;
+                                            > img {
+                                                width:100%;
+                                                z-index: 1;
+                                                position: relative;
+                                                transition: all 0.3s;
+                                                &:hover{
+                                                    transform: scale(1.05);
+                                                }
+                                            }
+                                            span {
+                                                position: absolute;
+                                                z-index: 2;
+                                                right:20px;
+                                                bottom:20px;
+                                                img {
+                                                    width:auto;
+                                                }
+                                            }
+                                        }
+                                        .txt-box {
+                                            padding: 20px 0 10px 0;                                            
+                                            ul {
+                                                li {
+                                                    padding:5px 0;
+                                                    color:#333;
+                                                    font-size: 16px;
+                                                    &:nth-child(1){
+                                                        font-size: 12px;
+                                                        color:#999;
+                                                        font-weight: 500;
+                                                        line-height: 140%;
+                                                    }
+                                                    &:nth-child(2){
+                                                        font-weight: 500;
+                                                        line-height: 140%;
+                                                    }
+                                                    &:nth-child(3){
+                                                        font-weight: 600;
+                                                        strong{font-weight: 600;color:#c00;}    
+                                                        span{font-weight: 600;margin:0 0 0 10px;}    
+                                                        em{
+                                                            font-size: 14ox;
+                                                            text-decoration: line-through;
+                                                            display: block;
+                                                            padding: 5px 0 0 0;
+                                                            font-weight: 400;
+                                                            color:#999;
+                                                        }    
+                                                    }
+                                                    &:nth-child(4){
+                                                        img {width:15px;transform: translateY(-1px);}
+                                                        span {font-size: 12px;color:#999;margin:0 0 0 2px;}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.slide1 {
+                                        .slide-gap{
+                                            ul {
+                                                width:100%;
+                                                li {
+                                                    width:100%;                                                    
+                                                    line-height: 160%;
+                                                    h2 {font-size: 24px;color:#333;font-weight:500;}   
+                                                    h3 {font-size: 16px;color:#666;font-weight:500;padding:10px 0 0 0;}
+                                                    .timer {
+                                                        img {width:32px;height: 32px;}
+                                                        display: inline-block;
+                                                        margin:0 10px 0 0;
+                                                    }
+                                                    .timer-counter {
+                                                        display: inline-flex;
+                                                        align-items: center;
+                                                        span{font-size: 32px;color:#444;font-weight:800;}
+                                                        i{
+                                                            font-size: 32px;color:#666;font-weight:800;margin:0 2px;                                                            
+                                                        }                                                        
+                                                    }
+                                                    p {font-size: 14px;color:#999;}
+                                                    &:nth-child(3){
+                                                        padding:30px 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        > a {
+                            z-index: 2;
+                            position: absolute;
+                            top: calc((320px - 60px) / 2);
+                            display: block;
+                            width:60;
+                            height:60;
+                            &.arrow-next-btn{
+                                right:-21px;
+                                img {
+                                    width:100%;
+                                    transform: rotate(-180deg);
+                                }
+                            }
+                            &.arrow-prev-btn{
+                                left:-21px;
+                                img {
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

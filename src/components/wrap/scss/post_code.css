@@ -1,0 +1,156 @@
+#postCode {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#postCode #postCodeBox {
+  width: 530px;
+  height: 550px;
+  background: #fff;
+  position: relative;
+  overflow-y: auto;
+}
+#postCode #postCodeBox #form {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 20px;
+}
+#postCode #postCodeBox #form form {
+  width: 100%;
+}
+#postCode #postCodeBox #form form > ul {
+  width: 100%;
+}
+#postCode #postCodeBox #form form > ul > li {
+  width: 100%;
+  padding: 10px 0;
+}
+#postCode #postCodeBox #form form > ul > li h1 {
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #666;
+}
+#postCode #postCodeBox #form form > ul > li h1 strong {
+  color: #5f0080;
+}
+#postCode #postCodeBox #form form > ul > li h2 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+}
+#postCode #postCodeBox #form form > ul > li input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #666;
+  background: #fff;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  transition: all 0.3s;
+  padding: 0 0 0 15px;
+}
+#postCode #postCodeBox #form form > ul > li input:focus {
+  outline: 1px solid #888;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(1), #postCode #postCodeBox #form form > ul > li:nth-child(2) {
+  padding: 0;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(3) {
+  position: relative;
+  padding: 0 130px 0 0;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(3) div {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #666;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(3) button {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 120px;
+  height: 42px;
+  border: 1px solid #5f0080;
+  border-radius: 3px;
+  background: #fff url(../../../../public/img/sub_page/sub_05/ico_search.svg) no-repeat calc(50% - 20px) 50%;
+  color: #5f0080;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(5) {
+  padding: 0;
+  width: 100%;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(5) p {
+  font-size: 12px;
+  line-height: 120%;
+  color: #999;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(6) {
+  width: 100%;
+  padding: 20px 0;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(6) button {
+  width: 100%;
+  height: 42px;
+  border: 0;
+  background: #5f0080;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(7) {
+  width: 100%;
+  padding: 20px 0 0 20px;
+  background: #fff url(../../../../public/img/sub_page/sub_05/notice_14_14_f03f40.svg) no-repeat 0 50%;
+  font-size: 13px;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(7) p {
+  width: 100%;
+  color: #c00;
+  padding: 0 0 5px 0;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(7) div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(7) div strong {
+  color: #666;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(7) div a {
+  font-size: 12px;
+  color: #999;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(8) {
+  width: 100%;
+  padding: 20px 0 0 19px;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(8) ul {
+  width: 100%;
+}
+#postCode #postCodeBox #form form > ul > li:nth-child(8) ul li {
+  font-size: 12px;
+  color: #999;
+  line-height: 130%;
+}/*# sourceMappingURL=post_code.css.map */

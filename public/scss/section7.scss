@@ -1,0 +1,37 @@
+#wrap{
+    width:100%;
+    #main{
+        width:100%;
+        #section7 { 
+            width:100%;
+            padding: 40px 0;
+            .container {
+                width:100%;
+                max-width: 1068px;
+                margin:0 auto;
+                .gap{
+                    padding:0 9px;
+                    .title {
+                        width:100%;
+                        padding: 0 0 40px 0;
+                        h2{
+                            font-size: 28px;
+                            font-weight: 600;
+                            text-align: center;
+                        }
+                    }
+                    .content {
+                        width:100%;
+                        a {
+                            display: block;
+                            width:100%;
+                            img {
+                                width:100%;
+                            }
+                        }    
+                    }
+                }
+            }
+        }
+    }
+}

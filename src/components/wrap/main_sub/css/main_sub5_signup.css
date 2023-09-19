@@ -1,0 +1,242 @@
+#mainSub05 {
+  width: 100%;
+}
+#mainSub05 #signUp {
+  width: 100%;
+  padding: 60px 0 100px 0;
+}
+#mainSub05 #signUp .container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#mainSub05 #signUp .container .title {
+  padding: 0 0 50px 0;
+}
+#mainSub05 #signUp .container .title h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+#mainSub05 #signUp .container .content {
+  width: 100%;
+}
+#mainSub05 #signUp .container .content ul {
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+#mainSub05 #signUp .container .content ul li {
+  width: 100%;
+  padding: 10px 20px;
+}
+#mainSub05 #signUp .container .content ul li:nth-child(15) {
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+#mainSub05 #signUp .container .content ul li:nth-child(16) {
+  padding-top: 20px;
+}
+#mainSub05 #signUp .container .content ul li:nth-child(22) {
+  padding-bottom: 20px;
+}
+#mainSub05 #signUp .container .content ul li > div {
+  padding: 0 130px 0 137px;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 {
+  position: relative;
+  color: #333;
+  font-size: 14px;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: -7px 0 0 0;
+  font-family: 500;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > label i {
+  color: #f03f40;
+  vertical-align: top;
+  transform: translateY(-6px);
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > input {
+  width: 100%;
+  height: 46px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0 15px;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  transition: all 0.3s;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > input:focus {
+  outline-color: #333;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > input::-moz-placeholder {
+  color: #aaa;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > input::placeholder {
+  color: #aaa;
+}
+#mainSub05 #signUp .container .content ul li > div.box1 > button {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  width: 120px;
+  height: 44px;
+  color: #5f0080;
+  border: 1px solid #5f0080;
+  border-radius: 3px;
+  background: #fff;
+  font-weight: 500;
+}
+#mainSub05 #signUp .container .content ul li > div.box2 p {
+  width: 100%;
+  font-size: 12px;
+  color: #f03f40;
+  letter-spacing: -1px;
+  padding: 10px 0 0 0;
+  letter-spacing: -1px;
+  line-height: 140%;
+}
+#mainSub05 #signUp .container .content ul li > div.box2 p strong {
+  font-weight: 500;
+  color: #5f0080;
+  display: block;
+  padding: 0 0 10px 0;
+}
+#mainSub05 #signUp .container .content ul li > div.box2 p.black {
+  color: #999;
+}
+#mainSub05 #signUp .container .content ul li > div .gender {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#mainSub05 #signUp .container .content ul li > div .gender label {
+  font-size: 16px;
+}
+#mainSub05 #signUp .container .content ul li > div .gender label input[type=radio] {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  margin: 0 8px 0 0;
+}
+#mainSub05 #signUp .container .content ul li > div .gender label input[type=radio]:checked {
+  border: 6px solid #5f0080;
+}
+#mainSub05 #signUp .container .content ul li > div .gender label em {
+  transform: translateY(1px);
+}
+#mainSub05 #signUp .container .content ul li > div .birth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  align-items: center;
+}
+#mainSub05 #signUp .container .content ul li > div .birth label {
+  width: 30%;
+  font-size: 16px;
+}
+#mainSub05 #signUp .container .content ul li > div .birth label input[type=text] {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  background: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+#mainSub05 #signUp .container .content ul li > div .birth label input[type=text]:focus {
+  outline: 0;
+}
+#mainSub05 #signUp .container .content ul li > div .birth label input[type=text]::-moz-placeholder {
+  color: #bbb;
+}
+#mainSub05 #signUp .container .content ul li > div .birth label input[type=text]::placeholder {
+  color: #bbb;
+}
+#mainSub05 #signUp .container .content ul li > div .birth i {
+  width: 5%;
+  font-size: 20px;
+  color: #ccc;
+}
+#mainSub05 #signUp .container .content ul li > div .service {
+  width: 100%;
+  position: relative;
+}
+#mainSub05 #signUp .container .content ul li > div .service a {
+  position: absolute;
+  right: -120px;
+  top: 4px;
+  color: #5f0080;
+  background-size: 5px auto;
+  background: url(../../../../../public/img/sub_page/sub_05/arrow_right.svg) no-repeat 100% 50%;
+  padding: 0 10px 0 0;
+}
+#mainSub05 #signUp .container .content ul li > div .service label {
+  font-size: 14px;
+}
+#mainSub05 #signUp .container .content ul li > div .service label input[type=checkbox] {
+  transform: translateY(-2px);
+  letter-spacing: -1px;
+  width: 24px;
+  height: 24px;
+  border: 0px solid #ccc;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  margin: 0 8px 0 0;
+  background: url(../../../../../public/img/sub_page/sub_05/check_off.svg) no-repeat 50% 50%;
+}
+#mainSub05 #signUp .container .content ul li > div .service label input[type=checkbox]:checked {
+  background-image: url(../../../../../public/img/sub_page/sub_05/check_on.svg);
+}
+#mainSub05 #signUp .container .content ul li > div .service label em {
+  transform: translateY(1px);
+}
+#mainSub05 #signUp .container .content ul li > div .service.sms {
+  padding-left: 32px;
+}
+#mainSub05 #signUp .container .content ul li > div .service.sms label {
+  margin-right: 50px;
+}
+#mainSub05 #signUp .container .content ul li > div.box2.service {
+  padding: 0 0 0 137px;
+}
+#mainSub05 #signUp .container .content ul li > div.box2.service p {
+  padding-left: 32px;
+  background: url(../../../../../public/img/sub_page/sub_05/ico_sub_dot.svg) no-repeat 67px 100%;
+}
+#mainSub05 #signUp .container .content ul li > div.box2.service.sms {
+  color: #5f0080;
+  padding: 0 0 0 137px;
+}
+#mainSub05 #signUp .container .content ul li > div.box2.service.sms p {
+  padding-left: 80px;
+}
+#mainSub05 #signUp .container .button-box {
+  width: 100%;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+#mainSub05 #signUp .container .button-box button {
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #5f0080;
+  border: 0;
+  color: #fff;
+}

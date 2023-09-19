@@ -1,0 +1,80 @@
+#wrap {
+    width:100%;
+    #main{
+        width:100%;
+        #section1 {
+            width:100%;
+            .slide-container{
+                position: relative;
+                width:100%;
+                .slide-view {
+                    position: relative;
+                    z-index: 1;
+                    width:100%;
+                    overflow: hidden;
+                    .slide-wrap {
+                        width:100% * 22;
+                        display: flex;
+                        margin: 0 0 0 -100%;
+                        position: relative;
+                        transition: all 0.6s ease-in-out;
+                        .slide {
+                            width:100%;
+                            a {
+                                display: block;
+                                width:100%;
+                                img {
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                > a {
+                    opacity: 1;
+                    z-index: 2;
+                    position: absolute;
+                    top:50%;
+                    margin: -26px 0 0 0;
+                    width: 52px;
+                    height: 52px;
+                    
+        
+                    &.next-arrow-btn{
+                        right:17%;
+                        img {width:auto;}
+                    }
+                    &.prev-arrow-btn{
+                        left:17%;
+                        img {
+                            width:auto;
+                            transform: rotate(-180deg);
+                        }
+                    }
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                    &.on{
+                        opacity: 1;
+                    }
+                }
+                > span {
+                        z-index: 2;
+                        position: absolute;
+                        bottom: 20px;                                             
+                        right: 33%;
+                        padding: 3px 12px 6px 12px;
+                        text-align: center;
+                        background: rgba(0,0,0, 0.2);
+                        border-radius: 15px;                        
+                        color:#fff;
+                        &.page-number-box{
+                        em {font-size: 14px;} 
+                        i {font-size: 16px;margin:0 5px;} 
+                        }
+                }
+        
+            }
+        }
+    }
+}

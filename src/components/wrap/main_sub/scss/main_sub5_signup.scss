@@ -1,0 +1,270 @@
+
+$red_color:#f03f40;
+$purple_color:#5f0080;
+
+
+#mainSub05 {
+    width:100%;    
+    #signUp {
+        width:100%;
+        padding:60px 0 100px 0;
+        .container {
+            width:100%;
+            max-width:640px;
+            margin:0 auto;
+            .title {
+                padding: 0 0 50px 0;
+                h2 {
+                    font-size: 28px;
+                    color:#333;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            }
+            .content {
+                width:100%;
+                ul {
+                    border-top:2px solid #333;
+                    border-bottom:1px solid #ccc;
+                    width:100%;
+                    li {
+                        width:100%;
+                        padding: 10px 20px;
+                        &:nth-child(11){
+                            border-bottom: 1px solid #333;
+                            padding-bottom: 20px;
+                        }
+                        &:nth-child(16){
+                            padding-top:20px;
+                        }
+                        &:nth-child(22){
+                            padding-bottom:20px;
+                        }
+                        > div {
+                            padding: 0  130px 0 137px;
+                            &.box1{       
+                                position: relative;                         
+                                color:#333;
+                                font-size: 14px;  
+                                > label {    
+                                    position: absolute;
+                                    left:0;
+                                    top:50%;
+                                    margin: -7px 0 0 0;                                 
+                                    font-family: 500;
+                                    i {
+                                        color:$red_color;
+                                        vertical-align: top;
+                                        transform: translateY(-6px);
+                                    }
+                                }
+                                > input {
+                                    width: 100%;
+                                    height: 46px;
+                                    font-size: 16px;  
+                                    background: #fff;
+                                    border:1px solid #ddd;
+                                    border-radius: 3px;
+                                    padding: 0 15px;
+                                    outline: 1px solid transparent;
+                                    outline-offset: -1px;
+                                    transition: all 0.3s;
+                                    &:focus {
+                                        outline-color: #333;
+                                    }
+                                    &::placeholder {
+                                        color: #aaa;
+                                    }
+                                }
+                                .count-timer {
+                                    position: absolute;
+                                    right: 150px;
+                                    top:15px;
+                                    z-index: 2;
+                                    font-size: 15px;
+                                    em {
+                                        color:#f03f40;
+                                        letter-spacing: 0.5px;
+                                    }
+                                }
+                                > button {
+                                    position: absolute;
+                                    right:0;
+                                    top: 1px;
+                                    width: 120px;
+                                    height: 44px;
+                                    color: $purple_color;      
+                                    border:1px solid $purple_color;
+                                    border-radius: 3px;     
+                                    background: #fff;    
+                                    font-weight: 500;
+                                    cursor: pointer;
+                                    &.hp-btn{
+                                        color:#ddd;
+                                        border:1px solid #ddd;
+                                    }
+                                    &.on{
+                                        position: relative;
+                                        left: 0;
+                                        top: 1px;
+                                        width:100%;
+                                    }
+                                }
+                            }
+                            &.box2{
+                                p {
+                                    width:100%;
+                                    font-size: 12px;
+                                    color: $red_color;
+                                    letter-spacing: -1px;
+                                    padding: 10px 0 0 0;
+                                    line-height: 140%;
+                                    strong{
+                                        display: block;
+                                        padding: 0 0 10px 0;  
+                                        color: #5f0080;                                      
+                                    }
+                                    &.black {
+                                       color: #888; 
+                                    }
+                                }
+                            }
+
+                            .gender {// 성별
+                                width:100%;     
+                                display: flex;                           
+                                justify-content: space-between;
+                                label {
+                                    font-size: 14px;
+                                    input[type='radio']{
+                                        width:24px;
+                                        height:24px;
+                                        border:1px solid #ccc;
+                                        appearance: none;
+                                        border-radius: 50%;
+                                        margin: 0 8px 0 0;
+                                        &:checked {
+                                            border:6px solid #5f0080;
+                                        }
+                                    }
+                                    em {
+                                        transform: translateY(1px);
+                                    }
+                                }
+                            }
+
+                            .birth {//생년월일
+                                width:100%;     
+                                display: flex;                           
+                                justify-content: space-between;
+                                height:46px;
+                                border:1px solid #ccc;
+                                border-radius: 3px;
+                                align-items: center;
+                                label {
+                                    width:30%;
+                                    font-size: 16px;
+                                    input[type='text']{
+                                        width:100%;
+                                        height: 30px;
+                                        border:0;
+                                        background: #fff; 
+                                        font-size: 16px;  
+                                        text-align: center;                                   
+                                        &:focus{
+                                            outline: 0;
+                                        }              
+                                        &::placeholder{
+                                            color:#bbb;
+                                        }
+
+                                    }
+                                }
+                                i{
+                                    width:5%;
+                                    font-size: 20px;
+                                    color:#ccc;
+                                }
+                            }
+
+                            .service {//  이용약관동의
+                                width:100%;   
+                                position: relative;
+                                a {
+                                    position: absolute;
+                                    right:-110px;
+                                    top:4px;
+                                    background: url(../../../../../public/img/sub_page/sub_05/arrow_right.svg) no-repeat 100% 50%;
+                                    background-size: 5px auto;
+                                    padding: 0 10px 0 0;
+                                    color:#5f0080;
+                                    font-weight: 500;
+                                }  
+                                label {
+                                    font-size: 14px;
+                                    letter-spacing: -1px;
+                                    input[type='checkbox']{
+                                        transform: translateY(-2px);
+                                        width:24px;
+                                        height:24px;
+                                        border:0px solid #ccc;
+                                        appearance: none;
+                                        border-radius: 50%;
+                                        margin: 0 8px 0 0;
+                                        background: url(../../../../../public/img/sub_page/sub_05/check_off.svg) no-repeat 50%  50%;
+                                        &:checked {
+                                            background-image: url(../../../../../public/img/sub_page/sub_05/check_on.svg);
+                                        }
+                                    }
+                                    em {
+                                        transform: translateY(1px);
+                                    }
+                                }
+                                &.sms {
+                                    padding-left:32px;
+                                    label {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+
+                            &.box2.service{
+                                padding: 0  0  0 137px;
+                                
+                                p {
+                                    padding-left: 32px;
+                                }                                
+                            }
+                            &.box2.service.sms{
+                                padding: 0  0  0 137px;
+                                p {
+                                    padding-left: 80px;
+                                    background: url(../../../../../public/img/sub_page/sub_05/ico_sub_dot.svg) no-repeat 67px 100%;
+                                }
+                            }
+
+                        }
+
+                        &.row9  {padding-top:0;padding-bottom:0;}
+                        &.row10 {padding-top:0;}
+                    }
+                }
+            }
+
+            .button-box {
+                width: 100%;
+                padding: 50px 0 0 0;
+                text-align: center;
+                button {
+                    width: 240px;
+                    height: 56px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    background: #5f0080;
+                    border: 0;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #section3 {
+  width: 100%;
+  padding: 40px 0;
+}
+#wrap #main #section3 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section3 .container .gap {
+  padding: 0 9px;
+}
+#wrap #main #section3 .container .gap .title {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+#wrap #main #section3 .container .gap .title h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+#wrap #main #section3 .container .gap .content {
+  width: 100%;
+}
+#wrap #main #section3 .container .gap .content a {
+  display: block;
+  width: 100%;
+}
+#wrap #main #section3 .container .gap .content a img {
+  width: 100%;
+}
